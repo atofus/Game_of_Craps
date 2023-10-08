@@ -1,0 +1,76 @@
+Assignment name: Assignment 6
+TCSS 305 C: Programming Practicum, Winter 2023
+Name: Alan To
+UWNetID: ato7
+
+Assignment Overview:
+For this project assignment, I saw it as a great sum up of almost everything we’ve learned this whole quarter.
+It was also a great indicator of what we’re probably going to be seeing later in the future in TCSS360 and maybe
+in the work field. Doing this project, we were able to get some first-hand interaction with how the MVC idea worked
+and get more hands-on practice with GUI. With it being our first assignment where we had to code from scratch, it
+was encouraged we look at some of our other resources allowing us to practice our research skills. Overall, I say the
+main purpose of this assignment was to work more with GUI and learn how that worked along with key shortcuts.
+
+
+Technical Impression:
+As mentioned before, this was our first assignment where we had to write a GUI from scratch with nothing handed to us
+but rules. Going into it, I was very excited to start on it because previously for the color chooser assignment, I
+had a lot of fun working with and coding the action listeners for that GUI. It’s always nice and feels great to
+visually see what your code does, especially when it’s doing what it’s supposed to do. Getting back on track with
+this assignment, before starting, I had to think about what I was going to put in my controller, view, and model and
+how many classes I was going to need. In the end, I ended up deciding that I was going to do 3 classes with 1 in each
+for MVC. Once starting it, I already had an idea of how the logic might work (model). I knew that I was going to need
+to set up a bank, a bet number, the total player wins, the total house wins, etc. and I knew that I was going to need
+to write a fair number of setters and getter methods for the action listeners to access. Once coding that up, I got
+started on what I thought was the hardest method for the model, which was the roll() method. At first, I was trying
+to used a while loop, but that didn’t work. After not being able to solve it, the next day Tom showed us his model
+code, and I just pretty much took what he wrote for his roll method (of course I still tried to understand it). I
+also did what he did with using a singleton and added the gameActive() and gameWon() methods along with that. To make
+sure everything was working correctly, I copied all of Tom’s view code to see if my logic was working the way it was
+supposed to. Once realizing that everything was working fine, I deleted all of Tom’s GUI code and got started working
+on my own GUI. With me never having to write GUI code before besides ActionListeners, this was most definitely the
+most time-consuming part of the project for me. Not really understanding how to manually write code for the GUI view,
+I decided to use the GUI designer in IntelliJ. When using it, I just found the GUI designer gridLayout to be a bit
+annoying to use in IntelliJ. Due to that, I decided to look up online other ways to customize your GUI, and I found out
+and remembered Tom telling us that the Eclipse IDE had a GUI interface with an absolute layout where you could just
+drag and click swing components onto a frame. So, with that, I designed the GUI portion of it on Eclipse and copied
+that code into IntelliJ. This process took me 6+ hours to do. For the design of the GUI, I just based it on what Tom
+showed us in his example, nothing special. After getting all the buttons, text fields, etc. where they’re supposed to
+be in the frame, I started on the Action Listeners. Already knowing what each component is supposed to do, I didn’t
+really have much of a problem when working with the action listeners. I knew there were going to be a lot of disabling
+and enabling of buttons and fields. This process of me coding the action listeners probably took about 10+ hours to do.
+Being near the finish line of this project, adding some finishing touches, I added the key shortcuts to the JMenu start
+button and the roll dice button using setMnemonic by watching some videos and looking at examples. Then, the last thing
+I did was changed the bank and betting data from being a double to a BigDecimal instead. Overall, I very much enjoyed
+doing this assignment and thought it was really rewarding when I finished it with everything working. Given out as
+advice in class, using singleton really helped me a lot! I’d say the biggest problem with my code is how messy and long
+it is in CrapsView. I could’ve and would’ve done the sound effects extra credit, but with time being of the essence
+during finals week, I sadly was not able to get to that part. However, I do plan on trying to get my hands on how audio
+works later and implementing it into this project maybe during Spring break.
+
+
+
+Unresolved problems in my submission:
+none for how it's supposed to work. However, there are check style problems. Just ran out of time for that
+problem.
+
+
+Citations and Collaborations:
+https://stackoverflow.com/questions/1359817/using-bigdecimal-to-work-with-currencies
+https://www.youtube.com/watch?v=7nEal9SJ6oI&ab_channel=BroCode
+https://washington.zoom.us/rec/play/QfgNj5q7DdQgTijXG9Ljg8xjy5FFXXliCRmkAfTQ3xZugUiA_GPsJbJDYUMv3jLwod82kw6t1-832DuN.I-Rq9NDhVJXIDpR0
+https://washington.zoom.us/rec/play/Wb43XakA0C4V2UvhNRNUZMxfe4CsF68u0Uk-fe5NMV_vVnbGPxkz0ME7HZlDhMpTCKgUUlqEbJW8uSDA.SV0hFzUBYrOlY-Ir
+https://youtu.be/r8Qiz9Bn1Ag
+https://stackoverflow.com/questions/8396870/joptionpane-yes-or-no-window
+https://stackoverflow.com/questions/19937173/increment-decrement-with-guijava
+
+Extra Credit:
+(Describe any extra credit attempted. Include as much detail as possible
+to ensure full credit)
+None. However, I could’ve and would’ve done the sound effects extra credit, but with time being of the essence
+during finals week, I sadly was not able to get to that part. However, I do plan on trying to get my hands on how audio
+works later and implementing it into this project maybe during Spring break.
+
+
+Questions:
+none
